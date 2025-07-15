@@ -223,6 +223,7 @@
         <!-- intentions -->
         <intentionAction>
             <className>com.roc.generator.intentions.AddFieldComment</className>
+            <className>com.roc.generator.intentions.UpperField</className>
             <category>Roc code</category>
         </intentionAction>
     </extensions>
