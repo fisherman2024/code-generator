@@ -223,8 +223,13 @@
         <!-- intentions -->
         <intentionAction>
             <className>com.roc.generator.intentions.AddFieldComment</className>
+            <category>Roc code</category>
+            <language>JAVA</language>
+        </intentionAction>
+        <intentionAction>
             <className>com.roc.generator.intentions.UpperField</className>
             <category>Roc code</category>
+            <language>JAVA</language>
         </intentionAction>
     </extensions>
 

@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.roc"
-version = "1.16"
+version = "1.17"
 
 repositories {
     mavenCentral()
@@ -49,8 +49,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("232")
-        untilBuild.set("242.*")
+        sinceBuild.set("243")
+        untilBuild.set("243.*")
     }
 
     signPlugin {

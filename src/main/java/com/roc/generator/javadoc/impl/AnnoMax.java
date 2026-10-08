@@ -28,6 +28,6 @@ public class AnnoMax implements MdAnnotationFormatter {
 
     @Override
     public List<String> support() {
-        return Lists.newArrayList(MIN);
+        return Lists.newArrayList(MIN, "jakarta.validation.constraints.Max");
     }
 }

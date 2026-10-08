@@ -34,7 +34,7 @@ public class AnnoSize extends AbstractRangeAnno {
 
     @Override
     public List<String> support() {
-        return Lists.newArrayList(SIZE);
+        return Lists.newArrayList(SIZE, "jakarta.validation.constraints.Size");
     }
 
 }

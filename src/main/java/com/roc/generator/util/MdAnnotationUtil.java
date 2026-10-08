@@ -26,7 +26,11 @@ public class MdAnnotationUtil {
             "javax.validation.constraints.NotEmpty",
             "javax.validation.constraints.NotNull",
             "org.hibernate.validator.constraints.NotBlank",
-            "org.hibernate.validator.constraints.NotEmpty"
+            "org.hibernate.validator.constraints.NotEmpty",
+            "jakarta.validation.constraints.NotNull",
+            "jakarta.validation.constraints.NotEmpty",
+            "jakarta.validation.constraints.NotBlank"
+
     );
 
     /**
